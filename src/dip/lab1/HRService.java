@@ -9,7 +9,7 @@ import javax.swing.JOptionPane;
  * @author your name goes here
  */
 public class HRService {
-     public double getAnnualCompensationForEmployee(EmployeeService e) {
+     public double getAnnualCompensationForEmployee(Employee e) {
         return e.getAnnualWages();
     }
 }

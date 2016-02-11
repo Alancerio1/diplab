@@ -6,7 +6,7 @@ package dip.lab1;
  *
  * @author your name goes here
  */
-public class SalariedEmployee implements EmployeeService {
+public class SalariedEmployee implements Employee {
 
     private double annualSalary;
     private double annualBonus;

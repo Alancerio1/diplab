@@ -14,7 +14,7 @@ import java.io.PrintWriter;
  *
  * @author alancerio18
  */
-public class FileWriter implements Writer {
+public class FileWriter implements MessageWriter {
     
     @Override
     public void writeln(String line) {

@@ -3,13 +3,12 @@
  * To change this template file, choose Tools | Templates
  * and open the template in the editor.
  */
-package dip.lab3;
+package dip.lab1;
 
 /**
  *
  * @author alancerio18
  */
-public interface Writer {
-    	public abstract void writeln( String line );
-
+public interface Employee {
+    public abstract double getAnnualWages();
 }

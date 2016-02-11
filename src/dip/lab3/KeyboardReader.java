@@ -11,7 +11,7 @@ import java.util.Scanner;
  *
  * @author alancerio18
  */
-public class KeyboardReader implements Reader {
+public class KeyboardReader implements MessageReader {
     
     
     @Override

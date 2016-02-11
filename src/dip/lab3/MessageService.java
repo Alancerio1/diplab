@@ -9,11 +9,11 @@ package dip.lab3;
  *
  * @author alancerio18
  */
-public class MsgService {
-    private Reader reader;
-    private Writer writer;
+public class MessageService {
+    private MessageReader reader;
+    private MessageWriter writer;
 
-    public MsgService(Reader reader, Writer writer) {
+    public MessageService(MessageReader reader, MessageWriter writer) {
         this.reader = reader;
         this.writer = writer;
     }
@@ -33,19 +33,19 @@ public class MsgService {
     
     
     
-    public Reader getReader() {
+    public MessageReader getReader() {
         return reader;
     }
 
-    public void setReader(Reader reader) {
+    public void setReader(MessageReader reader) {
         this.reader = reader;
     }
 
-    public Writer getWriter() {
+    public MessageWriter getWriter() {
         return writer;
     }
 
-    public void setWriter(Writer writer) {
+    public void setWriter(MessageWriter writer) {
         this.writer = writer;
     }
     

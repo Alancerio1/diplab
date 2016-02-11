@@ -9,7 +9,7 @@ package dip.lab3;
  *
  * @author alancerio18
  */
-public interface Reader {
-    	public abstract String readln();
+public interface MessageWriter {
+    	public abstract void writeln( String line );
 
 }

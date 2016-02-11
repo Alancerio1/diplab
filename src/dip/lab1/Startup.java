@@ -20,6 +20,7 @@ public class Startup {
         HourlyEmployee emp1 = new HourlyEmployee(10.50, 2020);
         SalariedEmployee emp2 = new SalariedEmployee(45000, 1250);
         SalariedEmployee emp3 = new SalariedEmployee(90000,0);
+        
         System.out.println(emp1.getAnnualWages());
         System.out.println(emp2.getAnnualWages());
         System.out.println(emp3.getAnnualWages());

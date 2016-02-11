@@ -11,7 +11,7 @@ package dip.lab3;
  */
 public class StartUp {
     public static void main(String[] args) {
-            MsgService msger = new MsgService(new FilerReader(), new FileWriter());
+            MessageService msger = new MessageService(new FilerReader(), new FileWriter());
             
             msger.sendMsg();
             
