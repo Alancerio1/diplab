@@ -11,7 +11,10 @@ import java.util.Scanner;
  *
  * @author alancerio18
  */
-public class KeyboardReader {
+public class KeyboardReader implements Reader {
+    
+    
+    @Override
     public String readln() {
             System.out.println("Please enter some text, then press return:");
 

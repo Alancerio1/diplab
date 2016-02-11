@@ -14,12 +14,13 @@ import java.io.PrintWriter;
  *
  * @author alancerio18
  */
-public class FileWriter {
+public class FileWriter implements Writer {
     
+    @Override
     public void writeln(String line) {
 		boolean append = false;
 		File data = new File(File.separatorChar + "Temp" + 
-			  File.separatorChar + "datacopy.txt");
+			  File.separatorChar + "data.txt");
 		PrintWriter out = null;
 			  
 		// This is where we setup our streams (append = false means overwrite)

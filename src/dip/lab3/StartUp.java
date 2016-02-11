@@ -5,15 +5,17 @@
  */
 package dip.lab3;
 
-import javax.swing.JOptionPane;
-
 /**
  *
  * @author alancerio18
  */
-public class GuiWriter implements Writer {
-    @Override
-    public void writeln( String line ) {
-            JOptionPane.showMessageDialog(null, line);
-	}
+public class StartUp {
+    public static void main(String[] args) {
+            MsgService msger = new MsgService(new FilerReader(), new FileWriter());
+            
+            msger.sendMsg();
+            
+    }
+    
+    
 }

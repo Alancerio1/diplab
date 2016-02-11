@@ -3,17 +3,12 @@
  * To change this template file, choose Tools | Templates
  * and open the template in the editor.
  */
-package dip.lab3;
-
-import javax.swing.JOptionPane;
+package dip.lab2;
 
 /**
  *
  * @author alancerio18
  */
-public class GuiWriter implements Writer {
-    @Override
-    public void writeln( String line ) {
-            JOptionPane.showMessageDialog(null, line);
-	}
+public enum ServiceQuality {
+    GOOD, FAIR, POOR
 }

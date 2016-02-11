@@ -50,7 +50,6 @@ Use the OOA/D goals that you memorized:
       should it not do?
 
 
-
 PROJECT SPECIFICATIONS:
 ----------------------
 We need a simple messaging system that is flexible enough to input

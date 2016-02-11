@@ -6,20 +6,20 @@ package dip.lab1;
  *
  * @author your name goes here
  */
-public class SalariedEmployee implements Employee {
+public class SalariedEmployee extends Employee {
 
-    private double salaryRate = 10.00;
-    private double annualBonus = 5;
+    /** default constructor. Is this the best way to go? */
+    public SalariedEmployee() {}
 
-    @Override
-    public double annualWages() {
-        return salaryRate + annualBonus;
+    /**
+     * Convenience constructor. Is this the best way to go?
+     * @param annualSalary - the employee's annual salary
+     * @param annualBonus - a bonus benefit, if any
+     */
+    public SalariedEmployee(double annualSalary, double annualBonus) {
+        setAnnualSalary(annualSalary);
+        setAnnualBonus(annualBonus);
     }
-    
- 
-    
-    
-
 
     
 }

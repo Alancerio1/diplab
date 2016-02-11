@@ -10,5 +10,5 @@ package dip.lab2;
  * @author alancerio18
  */
 public interface TipCalculator {
-    public double amountPayed();
+    public abstract double getTip();
 }

@@ -22,9 +22,7 @@ public class Startup {
     
  
     public static void main(String[] args) {
-        TipCalculator t = new BaggageServiceTipCalculator();
         
-        System.out.println(t.amountPayed());
         
     }
 

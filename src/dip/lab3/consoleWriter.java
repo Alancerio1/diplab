@@ -9,6 +9,6 @@ package dip.lab3;
  *
  * @author alancerio18
  */
-public class Start {
+public class consoleWriter {
     
 }

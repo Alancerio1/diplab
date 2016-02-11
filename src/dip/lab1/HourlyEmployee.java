@@ -6,24 +6,19 @@ package dip.lab1;
  *
  * @author your name goes here
  */
-public  class HourlyEmployee implements Employee {
+public class HourlyEmployee extends Employee {
     
     /** default constructor. Is this the best way to go? */
     public HourlyEmployee() {}
-    private double hourlyRate = 8.00;
-    private double totalHrsForYear = 2.00;
 
-  
-
- 
-
-   
-
-    @Override
-   public double annualWages(){
-        return hourlyRate * totalHrsForYear;
+    /**
+     * Convenience constructor. Is this the best way to go?
+     * @param hourlyRate - the rate per hour that the employee is paid
+     * @param totalHrsForYear - total hours worked or predicted per year
+     */
+    public HourlyEmployee(double hourlyRate, double totalHrsForYear) {
+        setHourlyRate(hourlyRate);
+        setTotalHrsForYear(totalHrsForYear);
     }
-
- 
 
 }
